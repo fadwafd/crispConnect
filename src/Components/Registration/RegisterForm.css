@@ -1,0 +1,135 @@
+.form-title {
+    margin-top: 20px;
+    margin-left: 250px;
+    font-size: 1.5em; /* Larger font size */
+}
+
+.form-p-1 {
+    margin-top: 15px;
+    margin-left: 250px;
+    font-size: 1.2em; /* Slightly larger font size */
+    color: gray;
+}
+
+.register-form {
+    margin-left: 230px;
+    max-width: 480px; /* Set a max width for the form */
+    padding: 20px; /* Add padding for spacing */
+    font-weight: 450;
+    
+    
+}
+
+.label {
+    font-size: 18px;
+}
+
+/* Add margin to the input fields for spacing */
+.register-form input {
+    margin-top: 5px;
+    margin-bottom: 15px; /* Space between fields */
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px; /* Padding inside the input for spacing */
+    width: 100%; /* Full width */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+
+
+.flex-1 {
+    margin-right: 25px; /* Small gap between first name and last name fields */
+}
+
+/* Optional: If you want to remove the margin from the last field */
+.flex-1:last-child {
+    margin-right: 0; /* Remove right margin for the last field */
+}
+
+.crisp-terms {
+   font-size: small;
+   color: gray;
+}
+.read-terms {
+    display: inline; 
+    text-decoration: underline;
+    color: rgb(0, 162, 255);
+    cursor: pointer;
+}
+
+.checkbox-button {
+    appearance: none;
+    position: relative;
+    margin-left: 250px;
+    margin-right: 5px; 
+    cursor: pointer;
+    width: 14px;
+    height: 14px;
+    border: 2px solid #ccc;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.checkbox-button:checked {
+    background-color: rgb(0, 153, 255); /* Change background color when checked */
+    border: 2px solid rgb(0, 153, 255); /* Optional: border color when checked */
+}
+
+/* Optional: Create a checkmark */
+.checkbox-button:checked::after {
+    content: '✔'; /* Empty content for the checkmark */
+    position: absolute; /* Positioning */
+    left: -2px; /* Adjust to center */
+    top: -6px; /* Adjust to center */
+    color:white;
+    font-size: 16px;
+}
+
+
+.button-clt {
+    margin-left: 537px;
+    margin-top: 30px;
+    border: 1px solid #cccccc;
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(59, 130, 246, 0.3); /* Initial state with 50% opacity */
+    transition: background-color 0.3s ease, opacity 0.3s ease; /* Smooth transition */
+}
+
+.btn:hover {
+    background-color: blue; /* Solid blue when clicked */
+    opacity: 1; /* Remove transparency when clicked */
+  }
+
+.have-account {
+    margin-left: 250px;
+    margin-top: 50px;
+    padding: 20px;
+    padding-left: 0;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    width: 5px; 
+    direction: rtl;
+    
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(0, 162, 255);
+    border-radius: 5px; 
+}
+
+
+
+
+
+
+
